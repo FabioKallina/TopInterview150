@@ -48,8 +48,7 @@ var productExceptSelf = function(nums) {
  * Space: O(n)
  */
 
-*/
-/** Using Division
+/** No Division
  * @param {number[]} nums
  * @return {number[]}
  */
