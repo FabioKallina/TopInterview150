@@ -29,7 +29,7 @@ Output: [1,2]
 var partition = function(head, x) {
     let sList = new ListNode();
     let bList = new ListNode();
-    let small = sList, big = bList;
+    let small = sList, big = bList; 
     let curr = head;
     while ( curr ) {
         if ( curr.val < x ) {
